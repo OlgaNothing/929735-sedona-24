@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Ольга Nothing](https://up.htmlacademy.ru/htmlcss/24/user/929735).
+* Студент: [Ольга Nothing1](https://up.htmlacademy.ru/htmlcss/24/user/929735).
 * Наставник: [Дмитрий Иовлев](https://htmlacademy.ru/profile/skywalker).
 
 ---
