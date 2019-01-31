@@ -5,26 +5,70 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="" alt="Логотип в навигации"><!--Прописать путь к логотипу-->
+        </a>
+        <ul class="site-navigation">
           <li>
-            <a href="">Информация</a>
+            <a href="info.html">Информация</a>
           </li>
           <li>
-            <a href=""> Фото и видео</a>
+            <a href="media.html"> Фото и видео</a>
           </li>
           <li>
-            <a href="">Карта штата</a>
+            <a href="map.html">Карта штата</a>
           </li>
           <li>
-            <a href="">Гостиницы</a>
+            <a href="hotels.html">Гостиницы</a>
           </li>
         </ul>
       </nav>
     </header>
+    <main class="container">
+      <section class="about-sedona">
+        <h1 class="about-stdona-headline"> Седона - небольшой городок в аризоне, заслуживающий большего!</h1>
+      </section>
+      <section class="advantage">
+        <h2 class="visually-hidden">Приемущества</h2>
+        <ol class="advantage-ordered-list">
+          <li>Настоящий городок</li>
+          <li>Там есть мост дьявола</li>
+          <li>Небольшая площадь</li>
+          <li>Красивая дорога</li>
+          <li>Мало туристов</li>
+        </ol>
+        <ul сlass="advantage-unordered-list">
+          <li>Жилье</li>
+          <li>Еда</li>
+          <li>Сувениры</li>
+        </ul>
+      </section>
+      <section class="hostels"><!--Сделать форму-->
+        <h2 class="hostels-headline">Поиск гостиницы в седоне</h2>
+        <p>
+          <span>Заинтересовались?</span><br>
+          Укажите предполагаемые даты поездки, <br>
+          и мы покажем вам лучшие предложения гостиниц в седоне
+        </p>
+      </section>
+    </main>
 
-    
-
+    <footer class="main-footer">
+      <p class="footer-discuss">#visitSEDONA</p>
+      <div class="footer-social">
+        <ul>
+          <li><a class="social-button" href="#">Твиттер</a></li><!--Прописать адреса сайтов-->
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Ютуб</a></li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        <a href="https://htmlacademy.ru">
+        <img src="" alt="Логотип HTML Academy"><!--Прописать адресс картинки-логотипа-->
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
