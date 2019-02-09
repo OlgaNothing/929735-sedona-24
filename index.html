@@ -37,63 +37,68 @@
       <section class="advantage">
         <h2 class="visually-hidden">Приемущества</h2>
         <ol class="advantage-ordered-list">
-          <li>
-            <div class="advantage-ordered-list-true-sity">
-              <h3>Настоящий городок</h3><!--разметка нумерации-->
+          <li class="advantage-ordered-item">
+              <ul сlass="advantage-unordered-list"><!--нужно ли оборачивать в див-->
+                <li>
+                  <div class="advantage-ordered-item advantage-unordered-lodging">
+                    <h3>Жилье</h3>
+                    <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="advantage-ordered-item advantage-unordered-food">
+                    <h3>Еда</h3>
+                    <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="advantage-ordered-item advantage-unordered-souvenirs"><h3>Сувениры</h3>
+                  <p>Не только китайского, но и местного производства!</p>
+                  </div>
+                </li>
+              </ul>
+            <div class="advantage-ordered-text">
+              <h3>Настоящий городок</h3>
               <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-              <div class="advantage-ordered-list-true-sity-picture"><img src="img/true-sity.jpg" width="800" height="256" alt="Настоящий городок"></div>
+              </div>
+            <div class="advantage-ordered-picture">
+              <img src="img/true-sity.jpg" width="800" height="256" alt="Настоящий городок">
             </div>
           </li>
-          <li>
-            <div class="advantage-ordered-list-devil's-brige">
+          <li class="advantage-ordered-brige">
+            <div><!--Имена классов для текста и картинки?-->
               <h3>Там есть мост дьявола</h3>
               <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-              <div class="advantage-ordered-list-devil's-brige-picture"><img src ="img/devil's-brige.jpg" width="800" hight="256" alt="Мост дьявола"></div>
-            </div>
+             </div>
+             <div class="advantage-ordered-list-devil's-brige-picture">
+               <img src ="img/devil's-brige.jpg" width="800" hight="256" alt="Мост дьявола">
+              </div>
           </li>
-          <li>
-            <div class="advantage-ordered-list-small-area">
+          <li class="advantage-ordered-area">
+            <div>
               <h3>Небольшая площадь</h3>
               <p>Все достопримечательности находятся очень близко</p>
             </div>
           </li>
-          <li>
-            <div class="advantage-ordered-list-beautiful-road">
+          <li class="advantage-ordered-road">
+            <div >
               <h3>Красивая дорога</h3>
               <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </div>
           </li>
-          <li>
-            <div class="advantage-ordered-list-few-tourists">
+          <li class="advantage-ordered-tourists">
+            <div >
               <h3>Мало туристов</h3>
               <p>Большинство едет в гранд каньон и толпится там</p>
             </div>
           </li>
         </ol>
-        <ul сlass="advantage-unordered-list"><!--нужно ли оборачивать в див-->
-          <li>
-            <div class="advantage-unordered-list-lodging">
-              <h3>Жилье</h3>
-              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-            </div>
-          </li>
-          <li>
-            <div class="advantage-unordered-list-food">
-              <h3>Еда</h3>
-              <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-            </div>
-          </li>
-          <li>
-            <div class="advantage-unordered-list-souvenirs"><h3>Сувениры</h3>
-            <p>Не только китайского, но и местного производства!</p>
-            </div>
-          </li>
-        </ul>
+        
       </section>
       <section class="hostels">
-        <h2 class="hostels-headline">Поиск гостиницы в седоне</h2>
+        <h2 class="hotels-headline">Поиск гостиницы в седоне</h2>
+        <span class="hotels-interest">Заинтересовались?</span><!--как заменить br  и нужен ли он тут?-->
         <p>
-          <span>Заинтересовались?</span><!--как заменить br  и нужен ли он тут?-->
           Укажите предполагаемые даты поездки,<br>
           и мы покажем вам лучшие предложения гостиниц в седоне
         </p>
@@ -107,9 +112,9 @@
       <p class="footer-discuss">#visitSEDONA</p>
       <div class="footer-social">
         <ul>
-          <li><a class="social-button" >Твиттер</a></li><!--Прописать адреса сайтов-->
-          <li><a class="social-button" >Фейсбук</a></li>
-          <li><a class="social-button" >Ютуб</a></li>
+          <li><a href="#" class="social-button" >Твиттер</a></li><!--Прописать адреса сайтов-->
+          <li><a href="#" class="social-button" >Фейсбук</a></li>
+          <li><a href="#" class="social-button" >Ютуб</a></li>
         </ul>
       </div>
       <p class="footer-copyright">Website by
